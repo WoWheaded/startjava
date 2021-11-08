@@ -9,7 +9,6 @@ public class Variable{
     double gh = 4.45612;
     char vname = 'N';
     boolean cool = true;
-    String compname = "Hasee";
     
     System.out.println(windows);
     System.out.println(service);
@@ -19,7 +18,6 @@ public class Variable{
     System.out.println(gh);
     System.out.println(vname);
     System.out.println(cool);
-    System.out.println(compname);
 
 
     }
