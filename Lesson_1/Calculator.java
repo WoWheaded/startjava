@@ -18,6 +18,10 @@
             System.out.println(num1 - num2);
         } else if (c == '*') {
             System.out.println(num1 * num2);
+        } else if (c == '/') {
+            double m = num1 * 1.0;
+            double n = num2 * 1.0;
+            System.out.println(m / n);
         } else if (c == '^') {
             for(int a =0; a < num2; a++) {
                 result = result * num1;
