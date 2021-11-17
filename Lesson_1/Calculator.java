@@ -10,8 +10,6 @@
         System.out.println("введите знак");
         char c = console.next().charAt(0);
         int result = 1;
-        
-        while (num1 >= 0 && num2 >= 0) {
         if (c == '+') {
             System.out.println(num1 + num2);
         } else if (c == '-') {
@@ -30,10 +28,9 @@
             System.out.println(num1 % num2);
         } else {
             System.out.println("Thanks");
-        } 
-        break;
         }
     }
 }
+
 
 
