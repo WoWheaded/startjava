@@ -19,9 +19,9 @@ public class Calculator {
             double n1 = num1 * 1.0;
             double n2 = num2 * 1.0;
             System.out.println(n1 / n2);
-        } int result = 1;
-          else if (sign == '^') {
+        } else if (sign == '^') {
             for(int i = 0; i < num2; i++) {
+                int result = 1;
                 result *= num1;
                 }
                 System.out.print(result);
