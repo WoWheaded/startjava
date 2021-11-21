@@ -25,9 +25,9 @@ public class ConditionalStatement {
         if (firstLetterName == 'M') {
             System.out.println("Миша");
         } else if (firstLetterName == 'I') {
-                System.out.println("Irakly");
+            System.out.println("Irakly");
         } else {
-                System.out.println("UnkownName");
+            System.out.println("UnkownName");
         }
     }
 }
