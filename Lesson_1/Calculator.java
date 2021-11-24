@@ -20,11 +20,11 @@ public class Calculator {
             double n2 = num2 * 1.0;
             System.out.println(n1 / n2);
         } else if (sign == '^') {
+            int result = 1;
             for(int i = 0; i < num2; i++) {
-                int result = 1;
                 result *= num1;
-                }
-                System.out.print(result);
+            }
+            System.out.println(result);
         } else if (sign == '%') {
             System.out.println(num1 % num2);
         } else {

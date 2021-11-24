@@ -3,6 +3,6 @@ public class Unicode {
         for (char symbol = 33; symbol <= 126; symbol++) {
             int num = symbol;
             System.out.println(num + "\n" + symbol + "\n" + "  ");
-            }
+        }
     }
 }
