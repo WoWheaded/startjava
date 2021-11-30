@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 public class Person {
 
     String gender = "male";
