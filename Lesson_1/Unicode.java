@@ -1,8 +1,8 @@
 public class Unicode {
     public static void main(String[] args) {
-        for (char symbol = 33; symbol <= 126; symbol++) {
+        for (char symbol = 9398; symbol <= 10178; symbol++) {
             int num = symbol;
-            System.out.println(num + "\n" + symbol + "\n" + "  ");
+            System.out.print(num + "\n" + symbol + "\n" + "  ");
         }
     }
 }
