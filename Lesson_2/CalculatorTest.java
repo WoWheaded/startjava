@@ -5,20 +5,19 @@ public class CalculatorTest {
         Scanner console = new Scanner(System.in);
         String answer;
         do {
-            Calculator pice = new Calculator();
+            Calculator calculator = new Calculator();
             System.out.print("Введите первое число: " );
-            pice.setNum1(console.nextInt());
+            calculator.setNum1(console.nextInt());
             System.out.print("введите знак математической операции: ");
-            pice.setSign(console.next().charAt(0));
+            calculator.setSign(console.next().charAt(0));
             System.out.print("Введите второе число: ");
-            pice.setNum2(console.nextInt());
-            pice.calculate();
-            answer = "";
+            calculator.setNum2(console.nextInt());
+            calculator.calculate();
             console.nextLine();
-            while (!answer.equals("yes") && !answer.equals("no")) {
+            do {
                 System.out.println("Хотите продолжить вычисления? [yes/no]");
                 answer = console.nextLine();
-            }
+            } while (!answer.equals("yes") && !answer.equals("no"));
         } while (!answer.equals("no"));
     }
 }
