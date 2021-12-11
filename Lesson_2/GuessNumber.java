@@ -26,6 +26,7 @@ public class GuessNumber {
                 System.out.println("Появился бобедитель - " + p1.getName() + "!!!");
                 break;
             }
+            System.out.println("");
             System.out.print("Nгрок " + p2.getName() + " вводит число - ");
             p2.setNumber(console.nextInt());
             if (p2.getNumber() > targetNumber) {
@@ -36,6 +37,6 @@ public class GuessNumber {
                 System.out.println("Появился бобедитель - " + p2.getName() + "!!!");
                 break;
             }
-        } while (p1.getNumber() != targetNumber && p2.getNumber() != targetNumber);
+        } while (true);
     }
 }
