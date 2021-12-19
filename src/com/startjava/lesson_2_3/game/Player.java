@@ -1,3 +1,5 @@
+package com.startjava.lesson_2_3.game;
+
 import java.util.Scanner;
 
 public class Player {
@@ -8,16 +10,8 @@ public class Player {
         this.name = name;
     }
 
-    public Player(int number){
-        this.number = number;
-    }
-    
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public int getNumber() {
