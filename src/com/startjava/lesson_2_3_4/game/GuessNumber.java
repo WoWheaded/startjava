@@ -43,7 +43,8 @@ public class GuessNumber {
 
     private int getHiddenNumber() {
         Random random = new Random();
-        return 1 + random.nextInt(100);
+        return hiddenNumber = random.nextInt(100);
+
     }
 
     private int makeGuess(Player player) {
