@@ -1,9 +1,33 @@
-package com.startjava.lesson_2_3.calculator;
-
-import java.util.Scanner;
+package com.startjava.lesson_2_3_4.calculator;
 
 public class Calculator {
-    private int num1;
+    public static int calculate(String expression) {
+        String[] elements = expression.split(" ");
+        int num1 = Integer.parseInt(elements[0]);
+        int num2 = Integer.parseInt(elements[2]);
+        String operation = elements[1];
+        int result = 0;
+        switch (operation) {
+            case "+":
+                return Math.addExact(num1, num2);
+            case "-":
+                return Math.subtractExact(num1, num2);
+            case "/":
+                return num1 / num2;
+            case "%":
+                return num1 % num2;
+            case "*":
+                return Math.multiplyExact(num1, num2);
+            case "^":
+                return (int) Math.pow(num1, num2);
+        }
+        return result;
+    }
+}
+
+
+
+    /*private int num1;
     private int num2;
     private char sign;
 
@@ -47,4 +71,4 @@ public class Calculator {
                 break;
         }
     }
-}
+}*/
