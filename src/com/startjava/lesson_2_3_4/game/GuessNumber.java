@@ -18,7 +18,7 @@ public class GuessNumber {
         boolean isFound = false;
         hiddenNumber = getHiddenNumber();
         int count = 0;
-        System.out.println("У выс есть 5 попыток, чтобы угадать число");
+        System.out.println("У выс есть 10 попыток, чтобы угадать число");
         System.out.println(hiddenNumber);
         do {
             int playerGuess = makeGuess(p1);
@@ -34,7 +34,7 @@ public class GuessNumber {
             }
             compareCountAttempts(p2);
             count++;
-        } while (count < 5);
+        } while (count < 10);
         printAttempts(p1);
         printAttempts(p2);
         p1.clearAttempts();
@@ -66,7 +66,7 @@ public class GuessNumber {
 
     private void compareCountAttempts(Player player) {
         if (player.getCount() == 10) {
-            System.out.println(player.getName() + ", ты потратилвсе попытки ");
+            System.out.println(player.getName() + ", ты потратил все попытки ");
         }
     }
 
