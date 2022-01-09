@@ -1,6 +1,4 @@
-package com.startjava.lesson_2_3.game;
-
-import java.util.Scanner;
+package com.startjava.lesson_2_3_4.game;
 
 public class Player {
     private String name;

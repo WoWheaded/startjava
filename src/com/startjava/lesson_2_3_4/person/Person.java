@@ -1,7 +1,6 @@
-package com.startjava.lesson_2_3.person;
+package com.startjava.lesson_2_3_4.person;
 
 public class Person {
-
     String gender = "male";
     String name = "Dmitry";
     float height = 18.1f;
