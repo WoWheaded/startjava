@@ -2,8 +2,8 @@
 
 CREATE TABLE jaegersInfo (
  id		SERIAL PRIMARY KEY,
- modelName    TEXT,
- mark         CHAR(6),
+ modelName      TEXT,
+ mark           CHAR(6),
  height		     INTEGER,
  weight		     REAL,
  status		     TEXT,
