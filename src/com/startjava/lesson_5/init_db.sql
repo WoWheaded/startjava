@@ -1,4 +1,4 @@
-﻿-- init database
+-- init database
 
 INSERT INTO jaegersinfo (modelName, mark, height, weight, status, origin, launch, kaijukill)
 	VALUES
@@ -9,6 +9,6 @@ INSERT INTO jaegersinfo (modelName, mark, height, weight, status, origin, launch
 		('Obsidian Fury' ,		'Mark-3',		'268' ,	'2.222',		'Destroyed',	'India' ,		'02.04.2017' ,	'2'),
 		('Brawler Yukon' ,		'Mark-1',		'255' , 	'2.101',		'Destroyed',	'USA' ,		'30.01.2015' ,	'2'),
 		('Coyote Tango' ,		'Mark-1',		'280' ,	'2.312',		'Destroyed',	'Japan' ,		'30.12.2015' ,	'2'),
-		('Marauder' ,		'Mark-4',		'292' ,	'2.245',		'Destroyed',	'German' ,	'15.10.2018' ,	'55'),
+		('Marauder' ,			'Mark-4',		'292' ,	'2.245',		'Destroyed',	'German' ,		'15.10.2018' ,	'55'),
 		('Bracer Phoenix' ,		'Mark-5',		'232' ,	'2.128',		'Destroyed',	'Shanghai' ,	'01.11.2025' ,	'3'),
 		('November Ajax' ,		'Mark-6',		'259' ,	'1.999',		'Destroyed',	'China' ,		'29.09.2021' ,	'45');
